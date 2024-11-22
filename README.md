@@ -2,6 +2,7 @@
 
 Este repositório contém uma análise detalhada das questões do ENEM nos últimos anos, com foco na classificação das questões por áreas de História e a previsão da quantidade de questões para 2024 utilizando modelos de séries temporais ARIMA.
 
+
 ## Objetivo
 
 O objetivo deste projeto é analisar a distribuição de questões do ENEM por subtema ao longo dos anos, prever a quantidade de questões para 2025 e gerar insights sobre os temas mais abordados nas provas de História. A análise é realizada utilizando Python, Pandas, Matplotlib e modelos de séries temporais ARIMA.
@@ -25,11 +26,8 @@ A primeira etapa foi classificar as questões por subtema. Para isso, aplicamos 
 ### 2. **Limpeza e Preparação dos Dados**
 Após a classificação, removemos entradas que continham subtemas irrelevantes (como "Geografia") e preparamos os dados para a análise.
 
-### 3. **Análise Temporal**
-A distribuição das questões ao longo dos anos foi analisada, observando as flutuações nas quantidades de questões por subtema, com a criação de gráficos.
-
-### 4. **Previsão com ARIMA**
-Foi utilizado o modelo ARIMA para prever a quantidade de questões para o ano de 2024. O ARIMA foi aplicado aos dados históricos para cada subtema de História, considerando que os dados eram estacionários.
+### 3. **Melhorias no proejto**
+Comporação do resultado proposto no código com classificações do ChatGPT. Esses resultados serão comparados com a classificação humana, feita por mim, nas próximas atualizações.
 
 ## Dependências
 
@@ -41,6 +39,6 @@ Este projeto foi desenvolvido usando as seguintes bibliotecas Python:
 - statsmodels
 - pmdarima (para auto-arima)
 
-## Exemplo de resultados
-
-O gráfico abaixo mostra a evolução das questões por subtema ao longo dos anos, destacando as flutuações nas quantidades de questões para cada tema:
+## Próximas atualizações
+1. Melhoria na classificação das questões
+2. Apresentação dos resultados
